@@ -14,10 +14,13 @@ A simple Python-based tool that uses **LangChain** and **Google Gemini** to gene
 
 ## 🏁 Quick Start
 1. **Clone this Repo**
-2. **Install Dependencies:**
+2. **Create virtaul envoirnment**: python -m venv .venv
+3. **Activate .venv:**
+     .venv\Scripts\activate
+4. **Install Dependencies:**
      pip install -r requirements.txt
-3. **Add API Key:**
+5. **Add API Key:**
      Create a file named google_secret.py
      put your api key as ***key = ''***
-4. **Hit Run:**
+6. **Hit Run:**
      streamlit run main.py
